@@ -83,16 +83,6 @@ portfolio-website/
 
 ---
 
-## Contributing
-Contributions are welcome! Feel free to open issues or submit pull requests for improvements.
-
----
-
-## License
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 ## Contact
 If you have any questions or want to collaborate, feel free to reach out:
 - **Email:** [aayush.makhija@gmail.com](mailto:aayush.makhija@gmail.com)
