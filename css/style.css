@@ -335,7 +335,7 @@ header {
 .service {
     max-width: 150px;
     margin:  auto;
-    margin-top: 1%;
+    margin-top: 1.5%;
 }
 @media (min-width: 800px) {
     .services {
@@ -484,11 +484,11 @@ header {
     padding: 0 2em 2em;
     max-width: 1000px;
     margin: 0 auto;
+    text-align: left
 
 }
 
-.portfolio-item-individual p {
-    max-width: 600px;
+.portfolio-item-individual  {
     margin-left: auto;
     margin-right: auto;
     
