@@ -37,20 +37,36 @@
 
         <section class = "intro">
             <h1 class = "section__title section__title--intro">
-                The title <strong>of my project</strong> 
+                <strong>Slack Bot</strong> 
             </h1>
-            <p class = "section__subtitle section__subtitle--intro">A short subtitle</p>
+            <p class = "section__subtitle section__subtitle--intro">Wolfram and Wit.ai Integration</p>
             <img src = "project1.png" alt = "" class = "intro__img">
         </section>
 
         <div class = "portfolio-item-individual">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-            <img src = "chatbot.jpg" alt = "">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            <p>This project is a Slack bot designed to answer user queries by leveraging the power of Wolfram Alpha and Wit.ai for natural language processing. Developed in Go (Golang), the bot listens to specific commands on Slack and provides intelligent, data-driven responses.</p>
+            <img src = "bot.png" alt = "">
+            <p>
+                <strong>Key Features:</strong>
+                <li>Wolfram Alpha Integration: Handles complex queries like factual questions, calculations, and more.</li>
+                <li>Wit.ai NLP: Understands natural language inputs to extract relevant entities and intents.</li>
+                <li>Real-Time Interaction: Uses Slack’s API to provide instant responses in channels or direct messages.</li>
+                <li>Event Logging: Captures command events for easy debugging and analytics.</li>
+                <br>
+                <strong>How It Works:</strong> 
+                <li>The bot listens for commands in the format q - message.</li>
+                <li>The input message is processed using Wit.ai to identify relevant entities.</li>
+                <li>The extracted query is sent to Wolfram Alpha for a precise, spoken answer.</li>
+                <li>The response is posted back in the Slack channel.</li>
+                <br>
+                <strong>Technologies Used:</strong>
+                <li>Go (Golang)</li>
+                <li>Slack API (via Slacker library)</li>
+                <li>Wit.ai for NLP</li>
+                <li>Wolfram Alpha API</li>
+                <li>GJSON for JSON parsing</li>
+                <br>
+                This project showcases the power of combining AI-driven natural language understanding with robust APIs for creating smart, responsive Slack bots.</p>
         </div>
 
         <footer class = "footer">
