@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width-device-width, initial-scale = 1.0">
+        <title>Aayush Makhija Portfolio Website</title>
+        <link rel = "stylesheet"
+        href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+
+   <link rel = "stylesheet" href = "css/style.css">
+
+         <!-- Update these with your own fonts -->
+         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+
+    </head>
+    <body>
+        <header>
+            
+            <div class = "logo">
+                <img src = "AAYUSH.png" alt = "">
+            </div>
+        
+            <button class = "nav-toggle" aria-label="toggle navigation">
+                <span class = "hamburger"></span>
+            </button>
+            <nav class = "nav">
+                <ul class = "nav__list">
+                    <li class = "nav__item"><a href = "index.html" class = "nav__link">Home</a></li>
+                    <li class = "nav__item"><a href = "index.html#services" class = "nav__link">My Services</a></li>
+                    <li class = "nav__item"><a href = "index.html#about" class = "nav__link">About me</a></li>
+                    <li class = "nav__item"><a href = "index.html#work" class = "nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class = "intro">
+            <h1 class = "section__title section__title--intro">
+                <strong>Playlist Management System</strong> 
+            </h1>
+            <p class = "section__subtitle section__subtitle--intro">Golang and PostgreSQL</p>
+            <img src = "Phonograph Record Glass Mosaic Design - 213cm x 213cm (84 x84).jpeg" alt = "" class = "intro__img">
+        </section>
+
+        <div class = "portfolio-item-individual">
+            <p>This project is a Music Playlist Management System built using Go (Golang) and PostgreSQL. It allows users to efficiently manage their music collection by creating albums, artists, playlists, and songs while offering seamless database interactions.</p>
+            <img src = "photo.jpg" alt = "">
+            <p>
+                <strong>Key Features:</strong>
+                <li>Album & Artist Management: Add albums and artists to the database.</li>
+                <li>Song Management: Insert songs with details like name, artist, and album.</li>
+                <li>Playlist Functionality: 
+                        Create and delete playlists.
+                        Add songs to specific playlists.
+                        Remove songs from existing playlists.</li>
+                <li>PostgreSQL Integration: Uses database/sql with lib/pq for efficient data handling.</li>
+                <br>
+                <li>CLI-Based User Interaction: Allows users to input selections for song and playlist modifications.</li>
+                <br>
+                This project showcases my backend development skills in Go, handling database transactions, and structuring efficient CRUD operations. You can click on this <a href = "https://github.com/aayush-makhija/playlistmanagement">link</a> to view the code.</p>
+        </div>
+
+        <footer class = "footer">
+            <a href ="mailto:aayush.makhija@gmail.com" class = "footer__link">aayush.makhija@gmail.com</a>
+            <ul class = "social-list">
+                <li class = "social-list__item">
+                    <a class = "social-list__link" href = https://www.linkedin.com/in/aayush-makhija-80a641253>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li class = "social-list__item">
+                    <a class = "social-list__link" href = https://www.instagram.com/>
+                    <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li class = "social-list__item">
+                    <a class = "social-list__link" href = https://github.com/aayush-makhija>
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+    </body>
+    <script src = "js/index.js"></script>
+</html>
