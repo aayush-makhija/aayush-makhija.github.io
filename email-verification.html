@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width-device-width, initial-scale = 1.0">
+        <title>Aayush Makhija Portfolio Website</title>
+        <link rel = "stylesheet"
+        href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+
+   <link rel = "stylesheet" href = "css/style.css">
+
+         <!-- Update these with your own fonts -->
+         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+
+    </head>
+    <body>
+        <header>
+            
+            <div class = "logo">
+                <img src = "AAYUSH.png" alt = "">
+            </div>
+        
+            <button class = "nav-toggle" aria-label="toggle navigation">
+                <span class = "hamburger"></span>
+            </button>
+            <nav class = "nav">
+                <ul class = "nav__list">
+                    <li class = "nav__item"><a href = "index.html" class = "nav__link">Home</a></li>
+                    <li class = "nav__item"><a href = "index.html#services" class = "nav__link">My Services</a></li>
+                    <li class = "nav__item"><a href = "index.html#about" class = "nav__link">About me</a></li>
+                    <li class = "nav__item"><a href = "index.html#work" class = "nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class = "intro">
+            <h1 class = "section__title section__title--intro">
+                <strong>Domain Verification</strong> 
+            </h1>
+            <p class = "section__subtitle section__subtitle--intro">Golang</p>
+            <img src = "email.jpeg" alt = "" class = "intro__img">
+        </section>
+
+        <div class = "portfolio-item-individual">
+            <p>This tool is designed to verify the existence and email security configuration of a domain. It checks for MX, SPF, and DMARC records using DNS lookups to determine whether a domain is properly configured for email communication.</p>
+            <img src = "email_terminal.png" alt = "">
+            <p>
+                <strong>Key Features:</strong>
+                <li>MX Record Lookup – Checks if the domain has valid mail exchange (MX) records.</li>
+                <li>SPF Record Validation – Identifies SPF records to verify email sender policies.</li>
+                <li>DMARC Record Detection – Retrieves DMARC policies for email security compliance.</li>
+                <li>Real-time Input Handling – Accepts domain names through standard input and provides instant verification.</li>
+                <br>
+                <strong>Technology Stack:</strong> 
+                <li>Golang – Core language for building the tool</li>
+                <li>net package – Performs DNS lookups</li>
+                <li>bufio, os, log – Handles user input and logging</li>
+                <br>
+                This project demonstrates my ability to work with DNS, perform network-related operations in Go, and build command-line tools for real-world applications. You can click on this <a href = "https://github.com/aayush-makhija/Email-Checker-tool">link</a> to view the code.</p>
+        </div>
+
+        <footer class = "footer">
+            <a href ="mailto:aayush.makhija@gmail.com" class = "footer__link">aayush.makhija@gmail.com</a>
+            <ul class = "social-list">
+                <li class = "social-list__item">
+                    <a class = "social-list__link" href = https://www.linkedin.com/in/aayush-makhija-80a641253>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li class = "social-list__item">
+                    <a class = "social-list__link" href = https://www.instagram.com/>
+                    <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li class = "social-list__item">
+                    <a class = "social-list__link" href = https://github.com/aayush-makhija>
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+    </body>
+    <script src = "js/index.js"></script>
+</html>
