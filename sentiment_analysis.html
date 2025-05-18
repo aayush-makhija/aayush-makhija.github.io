@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width-device-width, initial-scale = 1.0">
+        <title>Aayush Makhija Portfolio Website</title>
+        <link rel = "stylesheet"
+        href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+
+   <link rel = "stylesheet" href = "css/style.css">
+
+         <!-- Update these with your own fonts -->
+         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+
+    </head>
+    <body>
+        <header>
+            
+
+        
+            <button class = "nav-toggle" aria-label="toggle navigation">
+                <span class = "hamburger"></span>
+            </button>
+            <nav class = "nav">
+                <ul class = "nav__list">
+                    <li class = "nav__item"><a href = "index.html" class = "nav__link">Home</a></li>
+                    <li class = "nav__item"><a href = "index.html#services" class = "nav__link">My Services</a></li>
+                    <li class = "nav__item"><a href = "index.html#about" class = "nav__link">About me</a></li>
+                    <li class = "nav__item"><a href = "index.html#work" class = "nav__link">My Work</a></li>
+                    <li class = "nav__item"><a href = "resume.pdf" class = "nav__link" target="_blank">Download Resume</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class = "intro">
+            <h1 class = "section__title section__title--intro">
+                <strong>Interactive Journal</strong> 
+            </h1>
+            <p class = "section__subtitle section__subtitle--intro">Golang</p>
+            <img src = "journal.jpg" alt = "" class = "intro__img">
+        </section>
+
+        <div class = "portfolio-item-individual">
+            <p>The Interactive Journal is a personal diary application that leverages AI to help users explore and understand their emotions. Rather than just storing text, the app uses sentiment analysis to interpret journal entries and respond with helpful insights — encouraging self-reflection and mental clarity.</p>
+            <img src = "Screenshot 2025-04-15 at 4.03.40 PM.png" alt = "">
+            <p>
+                <strong>Key Features:</strong>
+                <li>Freeform Journaling: Users can write openly, as they would in a traditional diary.</li>
+                <li>Sentiment Analysis via Logistic Regression: A machine learning model processes the input to detect sentiment (positive, neutral, negative) with an accuracy of 77.8%.</li>
+                <li>Feedback Loop: Based on the sentiment, the app offers reflective prompts or supportive messages to help users think deeper about what they've written.</li>
+                <li>Privacy-First: The application doesn’t store or personalize data, respecting the user’s anonymity and privacy.</li>
+                <li>Prototype in Jupyter Notebook: The initial version is built in Jupyter Notebook, allowing quick iterations and experimentation.</li>
+                <br>
+                <strong>Technology Stack:</strong> 
+                <li>Python for development</li>
+                <li>Scikit-learn for logistic regression implementation</li>
+                <li>NLTK & spaCy for text preprocessing and tokenization</li>
+                <li>Accuracy: Achieved a 77.8% accuracy using logistic regression on a cleaned sentiment dataset </li>
+                <li>Model Pipeline: Includes text normalization, stop word removal, vectorization (TF-IDF), and binary classification </li>
+                <br>
+                I’ve always been interested in how technology can support emotional well-being. This project merges natural language processing with mental health awareness, creating a tool that feels personal while staying private. It also gave me hands-on experience with machine learning — from data preprocessing to training and evaluation.
+                </p>
+        </div>
+
+        <footer class = "footer">
+            <a href ="mailto:aayush.makhija@gmail.com" class = "footer__link">aayush.makhija@gmail.com</a>
+            <ul class = "social-list">
+                <li class = "social-list__item">
+                    <a class = "social-list__link" href = https://www.linkedin.com/in/aayush-makhija-80a641253>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li class = "social-list__item">
+                    <a class = "social-list__link" href = https://www.instagram.com/>
+                    <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li class = "social-list__item">
+                    <a class = "social-list__link" href = https://github.com/aayush-makhija>
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+    </body>
+    <script src = "js/index.js"></script>
+</html>
