@@ -412,6 +412,14 @@ header {
 .portfolio__item {
     background: var(--clr-accent);
     overflow: hidden;
+    width: 100%;
+    height: 100%;
+    align-self: stretch;
+    justify-self: stretch;
+    object-fit: cover;
+    display: block;
+    flex: 1;
+    display: flex;
 }
 
 .portfolio__img {
@@ -494,6 +502,5 @@ header {
     
 
 }
-
 
 
