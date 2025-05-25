@@ -146,6 +146,7 @@ header {
 }
 
 
+
 .nav {
     position: fixed;
     background: var(--clr-dark);
@@ -497,6 +498,17 @@ header {
     margin-right: auto;
     
 
+}
+
+/* Institution links */
+.custom-link {
+    color: 	#c0392b;       /* Uses the surrounding text color */
+   /* Removes the underline */
+  }
+
+.current {
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 
