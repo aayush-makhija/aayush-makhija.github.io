@@ -1,4 +1,4 @@
-# Implementation Plan: Portfolio Core Sections
+A# Implementation Plan: Portfolio Core Sections
 
 **Branch**: `001-portfolio-core-sections` | **Date**: 2026-03-01 | **Spec**: [specs/001-portfolio-core-sections/spec.md]
 **Input**: Feature specification from `/specs/001-portfolio-core-sections/spec.md`

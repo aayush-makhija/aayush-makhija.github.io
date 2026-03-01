@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0f172a; /* slate-950 */
+  --color-secondary: #1e293b; /* slate-900 */
+  --color-accent: #38bdf8; /* cyan-400 */
+  --color-accent-vibrant: #818cf8; /* indigo-400 */
+  
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+/* Base styles */
+:root {
+  font-family: var(--font-sans);
+  scroll-behavior: smooth;
+  color: #f8fafc; /* slate-50 */
+  background-color: var(--color-primary);
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* Animation Classes */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Accessibility: Reduce Motion */
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    transition: none;
+    opacity: 1;
+    transform: none;
+  }
+}
