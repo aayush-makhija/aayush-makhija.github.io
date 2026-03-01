@@ -1,50 +1,53 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+- Version change: Initial -> 1.0.0
+- List of modified principles:
+    - [PRINCIPLE_1] -> I. Clean & Minimalist UI
+    - [PRINCIPLE_2] -> II. Responsive Design & Accessibility
+    - [PRINCIPLE_3] -> III. Professional & Mature Aesthetic
+    - [PRINCIPLE_4] -> IV. No Backend / Lightweight Architecture
+    - [PRINCIPLE_5] -> V. Design Validation Over Automated Testing
+- Added sections:
+    - Design Standards
+    - Review & Quality Gates
+- Removed sections: None
+- Templates requiring updates:
+    - .specify/templates/plan-template.md (⚠ pending)
+    - .specify/templates/spec-template.md (⚠ pending)
+    - .specify/templates/tasks-template.md (⚠ pending)
+- Follow-up TODOs: None
+-->
+
+# Portfolio Website Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Clean & Minimalist UI
+The interface MUST be visually uncluttered, using whitespace effectively to highlight content. Complexity is a bug; every element must have a clear purpose. Focus on a high-signal-to-noise ratio.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Responsive Design & Accessibility
+The website MUST adapt seamlessly across all device sizes (mobile, tablet, desktop). Design decisions MUST adhere to WCAG accessibility guidelines and Human Computer Interaction (HCI) best practices to ensure a broad reach and professional usability.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Professional & Mature Aesthetic
+The design MUST be polished and sophisticated to impress recruiters. This includes high-quality typography, consistent spacing, and a professional color palette. Avoid trendy but ephemeral design patterns in favor of timeless professionalism.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. No Backend / Lightweight Architecture
+The project is strictly a frontend-focused application. No complex backend, databases, or heavy frameworks should be introduced. The goal is a highly performant, static-first portfolio that prioritizes look and feel over architectural complexity.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Design Validation Over Automated Testing
+Automated unit, integration, and E2E tests are NOT required for this project. Validation consists of rigorous visual inspection, cross-browser testing, and adherence to design principles. Success is measured by visual fidelity and user experience.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Design Standards
+- **Typography**: Use professional, readable sans-serif fonts with clear hierarchy.
+- **Spacing**: Consistent use of a grid system and standard padding/margins across all pages.
+- **Interactivity**: Use subtle transitions and hover effects to provide user feedback without being distracting.
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+## Review & Quality Gates
+- **Visual Verification**: All changes must be manually verified on multiple screen sizes (Responsive Check).
+- **Consistency Check**: New elements must match the established style guide and color palette.
+- **Performance Gate**: Assets must be optimized to ensure near-instant loading times.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
+The constitution serves as the ultimate authority for design and architectural choices. Any deviation from the minimalist aesthetic or the no-testing policy must be justified and documented as a constitutional amendment.
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
-
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2026-03-01 | **Last Amended**: 2026-03-01
