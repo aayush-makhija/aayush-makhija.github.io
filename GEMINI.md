@@ -25,9 +25,9 @@ npm test && npm run lint
 [HTML5, CSS3, JavaScript (ES6+)]: Follow standard conventions
 
 ## Recent Changes
+- 001-add-readme: Added [HTML5, CSS3, JavaScript (ES6+), React 19] + [React 19, Vite 6, Tailwind CSS 4, Lucide React]
 - 004-fix-image-display: Added React v19, Tailwind CSS v4 + `lucide-react`
 - 001-update-portfolio-assets: Added React (JavaScript), HTML5, CSS3 + Tailwind CSS v4, Lucide Reac
-- 002-enhance-ui-content: Added React (JavaScript), HTML5, CSS3 + Tailwind CSS v4, Lucide React, Framer Motion (for animations - existing or to be confirmed)
 
 
 <!-- MANUAL ADDITIONS START -->
