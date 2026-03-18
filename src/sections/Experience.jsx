@@ -2,7 +2,7 @@ const experiences = [
   {
     company: 'Invimatic Technologies',
     role: 'Context Engineering Intern',
-    dates: 'Feb 2025 - Present',
+    dates: 'Feb 2026 - Present',
     description: 'Currently specializing in context engineering and optimizing LLM interactions for robust backend systems.',
   },
   {
