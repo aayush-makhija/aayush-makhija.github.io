@@ -21,7 +21,7 @@ export default function CurrentCommit() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-white">Manipal University Jaipur</h3>
-                  <p className="text-slate-400 mt-1">B.Tech in Engineering</p>
+                  <p className="text-slate-400 mt-1">B.Tech in Computer and Communication Engineering</p>
                   <div className="flex items-center gap-2 text-sm text-slate-500 mt-2">
                     <MapPin size={14} />
                     Jaipur, Rajasthan
