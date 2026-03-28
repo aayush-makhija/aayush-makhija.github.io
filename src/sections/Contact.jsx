@@ -49,7 +49,7 @@ export default function Contact() {
           <div className='relative group'>
             <div className='absolute -inset-1 rounded-full bg-gradient-to-r from-accent to-accent-vibrant opacity-25 blur transition duration-500 group-hover:opacity-75' />
             <a
-              href='/public/resume.pdf'
+              href='/resume.pdf'
               download
               className='relative flex items-center gap-3 rounded-full bg-secondary px-10 py-5 text-lg font-bold text-white shadow-2xl transition-all border border-white/5 hover:bg-slate-800'
             >
