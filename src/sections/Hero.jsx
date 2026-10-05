@@ -12,11 +12,12 @@ export default function Hero() {
               digital experiences.
             </h1>
             <p className='mt-6 text-lg leading-8 text-slate-400'>
-              Undergraduate Engineering Student at Manipal University Jaipur.
-              Full-stack developer proficient in front-end and back-end web
-              application development, with expertise in designing responsive
-              user interfaces, creating seamless user experiences and
-              implementing robust server-side logic.
+              Software Engineer dedicated to designing and building impactful
+              applications. I combine problem-solving abilities with clean
+              coding practices and a passion for learning emerging technologies.
+              I excel in team environments and thrive on tackling complex
+              technical challenges. Always evolving, always coding, always
+              improving.
             </p>
             <div className='mt-10 flex items-center gap-x-6'>
               <a
